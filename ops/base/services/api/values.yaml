@@ -10,7 +10,7 @@ service:
 
 ingress:
   enabled: true
-  host: api.dev.newspulse.dev
+  host: api.dev.http://localhost:39193/
   tlsEnabled: false
   certArn: ""
 

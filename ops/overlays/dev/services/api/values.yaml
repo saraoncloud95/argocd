@@ -2,4 +2,4 @@ image:
   tag: "0.1.5-dev"
 replicaCount: 1
 ingress:
-  host: api.dev.newspulse.dev
+  host: api.dev.http://localhost:39193/
