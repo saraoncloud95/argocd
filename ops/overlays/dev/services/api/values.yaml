@@ -2,4 +2,4 @@ image:
   tag: "0.1.5-dev"
 replicaCount: 1
 ingress:
-  host: api.dev.http://localhost:39193/
+  host: api.dev.http://k8s-argocd-argocd-c967f0a4cd-1279209921.us-east-1.elb.amazonaws.com

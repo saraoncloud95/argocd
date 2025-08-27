@@ -2,4 +2,4 @@ image:
   tag: "1.0.0"
 replicaCount: 3
 ingress:
-  host: api.http://localhost:39193/
+  host: api.http://k8s-argocd-argocd-c967f0a4cd-1279209921.us-east-1.elb.amazonaws.com

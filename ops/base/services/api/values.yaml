@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: 590183844177.dkr.ecr.us-east-1.amazonaws.com/newspulse-api
+  repository: 637423561760.dkr.ecr.us-east-1.amazonaws.com/newspulse-api
   tag: "0.1.0"
   pullPolicy: IfNotPresent
 
@@ -10,7 +10,7 @@ service:
 
 ingress:
   enabled: true
-  host: api.dev.http://localhost:39193/
+  host: api.dev.http://k8s-argocd-argocd-c967f0a4cd-1279209921.us-east-1.elb.amazonaws.com
   tlsEnabled: false
   certArn: ""
 
