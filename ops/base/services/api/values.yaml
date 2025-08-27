@@ -1,0 +1,17 @@
+replicaCount: 1
+image:
+  repository: 590183844177.dkr.ecr.us-east-1.amazonaws.com/newspulse-api
+  tag: "0.1.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  host: api.dev.newspulse.dev
+  tlsEnabled: false
+  certArn: ""
+
+env: {}

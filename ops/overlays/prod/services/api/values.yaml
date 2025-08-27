@@ -1,0 +1,5 @@
+image:
+  tag: "1.0.0"
+replicaCount: 3
+ingress:
+  host: api.newspulse.dev
